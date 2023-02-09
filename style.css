@@ -1,0 +1,38 @@
+body{
+    background-color: black;
+}
+a{
+    color:inherit;
+    text-align: center;
+}
+h1,h2{
+    margin: 0;
+    text-align: center;
+}
+.cards{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+h2{
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+.firstpage{
+    width: 1920px;
+    height: 1280px; 
+    font-size: 1em; 
+    font-family: fantasy;
+    background-image:url(https://kartinkin.net/pics/uploads/posts/2022-08/1659393781_17-kartinkin-net-p-yelka-v-lesu-priroda-krasivo-foto-17.jpg);
+    background-repeat: no-repeat;
+    width: calc(100%);
+}
+.nazvperv{
+    position:relative; 
+    color:whitesmoke;
+    font-size: 5em;
+    font-family: fantasy;
+    left: 550px;
+    top:400px;
+}
